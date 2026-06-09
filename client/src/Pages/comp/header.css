@@ -1,0 +1,305 @@
+/* Navbar.css */
+.navbar {
+  position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 0px 20px;
+    height: 70px;
+    width: 100%;
+   
+    z-index: 100;
+    background: linear-gradient(to right, #f0d487, #463610);
+    /* background-color: #463610; */
+    box-shadow: 0 1px 4px rgba(146,161,176,.15);
+    top: 0%;
+    color: white;
+    border-top-right-radius: 10px;
+  }
+
+  .nav-item {
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: aqua; */
+  }
+  
+  .nav-item.left {
+    /* No special styling needed, it's already on the left by default */
+  }
+  .logonav{
+    width: 100%;
+    /* background-color: #e2a61b; */
+    /* margin-right: 500px;*/
+}
+
+  /* .logonav a{
+    padding-top: 5px;
+      font-size: 20px;
+      color: white;
+  
+      font-weight: 800;
+      text-align: center;
+      justify-content: center;
+        
+  } */
+   .logonav img{
+    width: 70px;
+    height: 60px;
+   }
+   .logonav a{
+    font-size: 18px;
+  margin-top: 5px;
+   }
+   .logonav span{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+   }
+   /* .logoname{
+  display: flex;             
+  justify-content: center;   
+  align-items: center;      
+  margin-top: 16px;           
+  height: 100%;  
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+} */
+/* .logonav a{
+    font-size: 20px;
+    color: white;
+
+    font-weight: 800;
+       color: rgb(233,83,75); 
+}
+
+.logonav a:hover{
+    color: #edd695;
+    transition: all ease 0.5s;
+} */
+  
+  .nav-item.center {
+    /* Make sure the second item is centered */
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    margin-top: 5px;
+    color: white;
+    margin-left: 15px;
+}
+
+.option a {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.option a:hover {
+    /* color: #edd695; */
+    /* transition: all ease 0.5s; */
+    color: white;
+    transform: scale(1.4);
+    transition: all ease 1.5s;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.option:hover {
+    color: rgb(6, 240, 170);
+}
+
+  .nav-item.right {
+    text-align: right;
+    margin-right: 5px;
+  }
+  .accountprofile:hover{
+    color: white;
+    transform: scale(1.5);
+    transition: all ease 1.5s;
+    /* color: #edd695; */
+}
+  .optionsignin{
+    display: flex; /* Flex to ensure horizontal alignment */
+    align-items: center; /* Vertically center the content */
+    margin: 0; /* Remove any default margins between items */
+    margin-right: 15px;
+
+    /* display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 50px;
+    margin-top: 5px;
+    color: white;
+    margin-left: 15px;
+    background-color: blue; */
+
+}
+
+.optionsignin a {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.optionsignin a:hover {
+    color: #edd695;
+    transition: all ease 0.5s;
+}
+
+
+.optionsignin:hover {
+    color: rgb(6, 240, 170);
+}
+
+.dropdownprofile{
+  position: absolute;
+  top:4.9rem;
+  right: 1.9rem;
+  /* right: 80px; */
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 5px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid white; 
+  
+}
+.dropdownprofile::before{
+   content: '';
+   position: absolute;
+   top: -0.7rem;
+   right: 1.1rem;
+   width: 25px;
+   height: 20px;
+   transform: rotate(45deg);
+   background-color: white;
+}
+
+.dropdownprofile ul {
+   list-style: none; /* Remove default list styling */
+   padding: 0;
+   /* margin: 0; */
+   margin-left: -8px;
+   /* background-color: #edd695; */
+   /* width: 100%; */
+   width: 200px;
+   /* white-space: nowrap; */
+ }
+ 
+ .dropdownprofile li {
+   /* margin-left: -10px; */
+   padding: 12px 16px;
+   cursor: pointer;
+   height: 50px;
+   width: 100%;
+ 
+   color: black;
+   border-bottom: 1px solid rgb(224, 216, 216); 
+ }
+ 
+ .dropdownprofile li:hover {
+   padding: 12px 16px;
+   /* background-color: #beb4b4; */
+
+     width: 100%;
+     /* border-bottom: 1px solid rgb(61, 60, 60);  */
+   /* width: 120px;
+   margin-left: 0px; */
+ }
+ li .optionname{
+  width: 200px; 
+  color: #463610;
+  margin-bottom: 10px;
+  font-style: italic;
+ }
+ li .optionname:hover{
+  width: 200px; 
+  color: #463610;
+  cursor:auto;
+  font-style: italic;
+ }
+li .optionlogout {
+  /* padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;*/
+  width: 200px; 
+  color: #868686;
+}
+li .optionlogout:hover {
+  color: #e3a514;
+}
+
+
+
+@media (min-width: 768px) {
+  .mobile-menu {
+      display: none!important;
+  }
+  .navbar {
+      display: grid;
+      grid-template-columns: 10% 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+      padding: 0px 10px;
+  }
+  .nav-options {
+      display: flex;
+      width: 100%;
+      height: 280px;
+      position: absolute;
+      top: 60px;
+      left: -100%;
+      opacity: 0;
+      transition: all 0.5s ease;
+      flex-direction: column;
+      list-style-type: none;
+  }
+  .nav-options.active {
+      background: black;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 100;
+  }
+  .menu-icon {
+      width: 45px;
+      height: 45px;
+      color: rgb(233,83,75);
+      padding: 2px;
+      background-color: rgb(246, 233, 202);
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0px 5px 0px 10px;
+  }
+  .option {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 10vw;
+      padding: 30px 0px;
+  }
+}
+

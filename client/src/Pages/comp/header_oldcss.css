@@ -1,0 +1,324 @@
+/*Desktop View*/
+.header{
+    display: flex;
+   
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0px 20px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color:#463610;
+    /* background-color: rgb(16,25,13); */
+    box-shadow: 0 1px 4px rgba(146,161,176,.15);
+    top: 0%;
+}
+.logonav{
+    /* width: 40%; */
+    /* background-color: #e2a61b; */
+    /* margin-right: 500px; */
+}
+.logonav a{
+    font-size: 20px;
+    color: white;
+    /* color: rgb(233,83,75); */
+    font-weight: 800;
+}
+
+.logonav a:hover{
+    color: #edd695;
+    transition: all ease 0.5s;
+}
+.divright{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: start; 
+  /* float: right; */
+   margin-left: 350px; 
+   margin-right: 20px;
+}
+.nav-right{
+
+ 
+
+
+   
+    display: flex;
+    align-items: start;
+    justify-content: center;
+   
+}
+  
+.divr{
+    background-color: blue; 
+    
+    /* justify-content: flex-end; 
+    margin-left: 200px;*/
+    
+
+ 
+}
+
+.icon{
+  
+}
+.searchinput{
+    width:300px;
+    margin-left: 15px;
+    max-width: 1800px;
+    height: 35px;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.nav-options{
+    padding-left: 25px;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 15px!important;
+}
+
+
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    /* padding-left: 5px; */
+    margin-top: 5px;
+    color: white;
+    /* color: rgb(243, 6, 6); */
+}
+/* .optiona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+ 
+   
+    margin-top: 5px;
+    color: white;
+   
+} */
+.option a{
+    color: white;
+    /* color: rgb(233,83,75); */
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.option a:hover{
+    color: #edd695;
+    transition: all ease 0.5s;
+}
+
+a{
+    text-decoration: none!important;
+}
+  
+.option:hover{
+    color: rgb(6, 240, 170);
+}
+
+.mobile-menu{
+    display: block;
+}
+.profile-dropdown {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* .dropdown-menu {
+    position: absolute;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    top: 50px; 
+} */
+
+/* .dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+} */
+
+/* .dropdown-item:hover {
+    background-color: #f4f4f4;
+} */
+.accountprofile:hover{
+    color: #beb4b4;
+}
+.flex {
+    display: flex; /* Enable flexbox layout */
+  }
+  
+  /* Column direction for flexbox */
+  .flex-col {
+    flex-direction: column; /* Stack child elements vertically */
+   
+    color: #463610;
+    gap: 1rem;    
+  }
+  
+.dropdownprofile{
+   position: absolute;
+   top:4.5rem;
+   right: 5.5rem;
+   /* right: 80px; */
+   width: 120px;
+   padding: 15px;
+   border-radius: 15px;
+   background-color: white;
+   border: 1px solid white; 
+   
+}
+.dropdownprofile::before{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right: 1.1rem;
+    width: 25px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.dropdownprofile ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    /* margin: 0; */
+    margin-left: -15px;
+    /* background-color: #edd695; */
+    /* width: 100%; */
+    width: 120px;
+    /* white-space: nowrap; */
+  }
+  
+  .dropdownprofile li {
+    /* margin-left: -10px; */
+    padding: 12px 16px;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+  
+    color: black;
+    border-bottom: 1px solid rgb(224, 216, 216); 
+  }
+  
+  .dropdownprofile li:hover {
+    padding: 12px 16px;
+    /* background-color: #beb4b4; */
+
+      width: 100%;
+      /* border-bottom: 1px solid rgb(61, 60, 60);  */
+    /* width: 120px;
+    margin-left: 0px; */
+  }
+  .optionlogout{
+    /* background-color: #463610; */
+ 
+    /* padding: 15px; */
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 120px;
+  
+    /* margin-top: 0px; */
+    margin-left: -15px;
+    /* border-bottom: 1px solid rgb(61, 60, 60); */
+}
+li .optionlogout{
+    /* padding: 12px 16px;
+    height: 20px; */
+
+    color: rgb(61, 60, 60);
+  
+ 
+}
+li .optionlogout:hover{
+  
+    /* background-color: #e3a514; */
+    color:#e3a514;
+    height: 40px;
+    
+ 
+}
+
+/* Nav Options are given in this to make the search input as big as possible */
+
+@media (min-width: 768px){
+    .mobile-menu{
+        display: none!important;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 10% 60%;
+    }
+}
+
+@media (max-width: 768px){
+    /*Mobile View */
+    .header{
+        padding: 0px 10px;
+    }
+    .nav-options{
+        display: flex;
+        width: 100%;
+        height: 280px;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease;
+        flex-direction: column;
+        list-style-type: none;
+        grid-gap: 0px;
+    }
+    .nav-options.active{
+        background: black;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 100;
+        align-content: center;
+        padding-left: 0px;
+    }
+  
+    .menu-icon{
+        width: 45px;
+        height: 45px;
+        color: rgb(233,83,75);
+        padding: 2px;
+        background-color: rgb(246, 233, 202);
+        border-radius: 5px;
+        cursor: pointer;
+        margin:0px 5px 0px 10px;
+    }
+    .option{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vw;
+        padding: 30px 0px;
+    }
+}  

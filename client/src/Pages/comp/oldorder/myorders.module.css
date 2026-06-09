@@ -1,0 +1,124 @@
+.result {
+    max-width: 1100px;
+    margin-top: 20px;
+    margin-left: 400px;
+    text-align: center;
+  }
+  .margincustom{
+    margin-top: 2rem; 
+  }
+  .h2listcustom{
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .overcustom{
+    overflow-x: auto;
+  }
+  .customh1{
+    max-width: 1100px;
+    margin-top: 20px;
+    margin-left: 400px;
+    text-align: center;
+    }
+  
+  .customtable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e2e8f0;
+    background-color: #fff;
+  }
+  .customtableth{
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EDA415;
+    color: #ffff;
+
+  }
+ 
+  .customtabletd {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 16px;
+  }
+  .customtabletd2 {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 0px  #fff;
+    font-size: 16px;
+  }
+  
+  /* .customtable th {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f7fafc;
+    color: #4a5568;
+  } */
+  
+  /* .custom-table td {
+    font-size: 16px;
+  } */
+  
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .updatebtn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #f59e0b;
+    color: #ffffff;
+    border: 1px solid #f59e0b;
+    margin-right: 5px;
+  }
+  
+  .updatebtn:hover {
+    background-color: #45260c;
+    color: #fff;
+    border:1px solid #ed8936;
+  }
+  
+  .deletebtn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #895906;
+    color: #ffffff;
+    border: 1px solid #895906;
+  }
+  
+  .deletebtn:hover {
+    background-color: #45260c;
+    border:1px solid #45260c;
+  }

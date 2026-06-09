@@ -1,0 +1,148 @@
+/* OrdersPage.module.css */
+
+/* Wrapper */
+.ordersPage {
+   
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Pagination */
+  .pagination {
+    margin-bottom: 30px;
+  }
+  
+  .pagination .MuiPaginationItem-root {
+    border-color: var(--border-color);
+    color: var(--primary-color);
+  }
+  
+  .pagination .MuiPaginationItem-root:hover {
+    border-color: var(--primary-color);
+    color: var(--text-primary);
+  }
+  
+  .pagination .Mui-selected {
+    border-color: var(--primary-color);
+    background-color: var(--action-active);
+    color: var(--text-primary);
+  }
+  
+  .pagination .Mui-disabled {
+    color: var(--primary-color);
+  }
+  
+  /* Grid Container */
+  .gridContainer {
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Order Card */
+  .orderCard {
+    background-color: var(--paper-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .orderCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card Header */
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .orderId {
+    font-weight: bold;
+  }
+  
+  .orderStatus {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+  }
+  
+  /* Product List */
+  .productList {
+    margin-top: 10px;
+  }
+  
+  .sectionTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .productList ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .productList li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Pricing */
+  .pricing {
+    margin-top: 20px;
+  }
+  
+  .totalPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--success-color);
+  }
+  
+  /* Variables (for dark/light theme support) */
+  :root {
+    --primary-color: #d98900;
+    --secondary-color: #00a67c;
+    --error-color: #aa2e25;
+    --success-color: #00a152;
+    --background-color: #efefef;
+    --paper-color: #fff;
+    --text-primary: #212625;
+    --text-secondary: #4C4C4C;
+    --text-disabled: #888;
+    --divider-color: #ccc;
+    --action-active: #ccc;
+    --action-hover: #aaa;
+    --action-selected: #aaa;
+    --action-disabled: rgba(0, 0, 0, 0.12);
+    --border-color: #ccc;
+  }
+  
+  /* Dark mode overrides */
+  [data-theme='dark'] {
+    --primary-color: #ffae26;
+    --secondary-color: #59ffd4;
+    --error-color: #f44336;
+    --success-color: #00e676;
+    --background-color: #111;
+    --paper-color: #1e1e1e;
+    --text-primary: #d1dedb;
+    --text-secondary: #b2b2b2;
+    --text-disabled: #888;
+    --divider-color: #333;
+    --action-active: #333;
+    --action-hover: #555;
+    --action-selected: #555;
+    --action-disabled: rgba(255, 255, 255, 0.38);
+    --border-color: #444;
+  }
+  

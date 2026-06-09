@@ -1,0 +1,186 @@
+/* OrdersPage.module.css */
+
+/* Wrapper */
+.ordersPage {
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .pageButton {
+    background-color: var(--paper-color);
+    border: 1px solid var(--border-color);
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .pageButton:hover {
+    background-color: var(--action-hover);
+  }
+  
+  .activePage {
+    background-color: var(--primary-color);
+    color: var(--paper-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .pageButton:disabled {
+    background-color: var(--disabled-color);
+    color: var(--text-disabled);
+    cursor: not-allowed;
+  }
+  
+  /* Grid Container */
+  .gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1400px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  /* Order Card */
+  .orderCard {
+    background-color: var(--paper-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    width: 600px;
+  }
+  
+  .orderCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card Header */
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .orderId {
+    font-weight: bold;
+  }
+  
+  .orderStatus {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+  }
+  .pending {
+    color: #ffa500; /* Orange color for Pending */
+    font-weight: bold;
+  }
+  
+  .delivered {
+    color: #32cd32; /* Green color for Delivered */
+    font-weight: bold;
+  }
+  
+  /* Product List */
+  .productList {
+    margin-top: 10px;
+  }
+  
+  .sectionTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .booktList ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .booktList li {
+    /*  font-size: 0.9rem; */
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  .imgthumbnail {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  
+  /* Pricing */
+  .pricing {
+    margin-top: 20px;
+  }
+  
+  .totalPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--success-color);
+  }
+  
+  /* Variables (for dark/light theme support) */
+  :root {
+    --primary-color: #d98900;
+    --secondary-color: #00a67c;
+    --error-color: #aa2e25;
+    --success-color: #00a152;
+    --background-color: #efefef;
+    --paper-color: #fff;
+    --text-primary: #212625;
+    --text-secondary: #4C4C4C;
+    --text-disabled: #888;
+    --divider-color: #ccc;
+    --action-active: #ccc;
+    --action-hover: #aaa;
+    --action-selected: #aaa;
+    --action-disabled: rgba(0, 0, 0, 0.12);
+    --border-color: #ccc;
+    --disabled-color: #e0e0e0;
+  }
+  
+  /* Dark mode overrides */
+  [data-theme='dark'] {
+    --primary-color: #ffae26;
+    --secondary-color: #59ffd4;
+    --error-color: #f44336;
+    --success-color: #00e676;
+    --background-color: #111;
+    --paper-color: #1e1e1e;
+    --text-primary: #d1dedb;
+    --text-secondary: #b2b2b2;
+    --text-disabled: #888;
+    --divider-color: #333;
+    --action-active: #333;
+    --action-hover: #555;
+    --action-selected: #555;
+    --action-disabled: rgba(255, 255, 255, 0.38);
+    --border-color: #444;
+  }
+  .emptyOrder{
+    font-size: 25px;
+    font-weight: bold;
+    color: #43484D;
+    text-align: center;
+  }

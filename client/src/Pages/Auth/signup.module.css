@@ -1,0 +1,194 @@
+/* styles.css or your preferred CSS file */
+/* .result {
+    max-width: 1100px;
+    margin-top: 20px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.margincustom {
+    margin-top: 2rem;
+}
+
+.mxauto {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 32rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+} */
+
+/* .max-w-lg {
+    max-width: 32rem; /* Equivalent to 512px (based on Tailwind's default max-width-lg) 
+  } */
+
+/* .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  } */
+
+
+/* block w-full px-4 py-2 border border-gray-300 rounded mb-4 */
+/* .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  } */
+
+/* .border {
+    border-width: 1px;
+  }
+   */
+/* .border-gray-300 {
+    border-color: #e2e8f0; /* Tailwind CSS gray-300 color 
+  } */
+
+/* .rounded {
+    border-radius: 0.25rem;
+  } */
+
+/* .mb-4 {
+    margin-bottom: 1rem;
+  } */
+
+/* .block {
+    display: block;
+    width: 100%;
+  } */
+/* text-2xl font-bold mb-4 */
+.h2custom {
+    font-size: 1.875rem;
+    /* Equivalent to Tailwind CSS text-2xl */
+    font-weight: 600;
+    /* Adjust as needed */
+    line-height: 2.25rem;
+    /* Adjust line-height to match text-2xl */
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.inputcustom {
+
+    /* padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+
+    font-size: 1rem; */
+    line-height: 1.5;
+    /* transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; */
+
+    /* display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-color: #e2e8f0;
+    border-width: 1px;
+
+    border-radius: 0.25rem; */
+}
+
+/* .font-bold {
+    font-weight: 700;
+  }
+   */
+/* max-w-lg mx-auto mt-8 */
+.formcustom {
+    max-width: 32rem;
+    /* Adjust max-width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-gray-700 {
+    color: #4a5568;
+}
+
+.bg-yellow-500 {
+    background-color: #f59e0b;
+    /* Tailwind CSS yellow-500 */
+}
+
+.hover\:bg-yellow-700:hover {
+    background-color: #ed8936;
+    /* Tailwind CSS yellow-700 on hover */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Adjust additional styles as per your project's requirements */
+
+/* Example of input field styling */
+
+.filecustom {
+    /* Shared styles for inputs and buttons */
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.custombutton {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    /* Adjust padding as needed */
+    border: 1px solid #e2e8f0;
+    /* Tailwind CSS border-gray-300 */
+    border-radius: 0.25rem;
+    /* Tailwind CSS rounded */
+    background-color: #f59e0b;
+    /* Tailwind CSS bg-yellow-500 */
+    color: #ffffff;
+    /* Tailwind CSS text-white */
+    font-weight: 600;
+    /* Adjust font weight as needed */
+    text-align: center;
+    /* Ensure text is centered */
+    cursor: pointer;
+    /* Ensure cursor changes to pointer on hover */
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    /* Smooth transitions */
+}
+
+/* input[type="file"] { */
+/* Additional styles for file input */
+/* padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+/* } */
+
+/* button {
+ 
+    background-color: #f59e0b;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+  } */
+
+.custombutton:hover {
+    background-color: #45260c;
+}

@@ -1,0 +1,143 @@
+.signincontainer {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #F4F1EA;
+    position: relative; /* Ensure the background is contained within this container */
+}
+
+.signincard {
+  position: relative; /* Make sure it's positioned relative to contain the background */
+  font-family: sans-serif;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  border-radius: 1.5rem !important;
+  background-color: #ffff;
+  z-index: 1; /* Keep it on top of the background */
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: linear-gradient(to right, #cbaf6c, #463610); /* Gradient background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: skewY(7deg) skewX(-7deg); /* Optional skew effect */
+    border-radius: 1.5rem;
+    z-index: -2; /* Ensure this stays behind the content */
+    /* pointer-events: none; */
+}
+.formcontainer {
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 1.5rem;
+    padding-top: 2.5rem; 
+    padding-bottom: 2.5rem; 
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+}
+
+form {
+    padding: 30px;
+}
+
+.errormessage {
+    color: red;
+    font-weight: bold;
+}
+
+.signintitle {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.signupoption {
+    background-color: rgb(69, 69, 185, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.line {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(245 239 239);
+    line-height: 2px;
+    margin: 25px 0;
+}
+
+.signinfields {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signinfields label {
+   
+    color: rgb(170 166 166);
+    text-align: left;
+    margin-top: 25px;
+}
+
+/* .signintextbox {
+ 
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+} */
+
+.signinbutton {
+    background-color: #463610;
+    color: white;
+    padding: 18px 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: auto !important;
+    margin-left: auto !important;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgetpass {
+    text-align: center;
+    display: block;
+}
+
+.signupquestion2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px !important;
+    padding: 15px;
+}
+
+.span {
+    color: #f6ae07;
+}
+
+.span:hover {
+    cursor: pointer;
+}
+
+.signupquestion {
+    background-color: #F4F1EA;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px !important;
+    padding: 15px;
+}
