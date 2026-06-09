@@ -1,81 +1,3 @@
-
-// // import Header from './Pages/comp/Header';
-// // import { BrowserRouter as Router, Routes, Redirect, Route } from "react-router-dom";
-// // import Allbooks from './Pages/Allbooks';
-// // import SignupUser from './Pages/Auth/signup';
-// // // import './App.css';
-// import Header from './Pages/comp/Header';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Allbooks from './Pages/Allbooks';
-// import SignupUser from './Pages/Auth/signup';
-// import Login from './Pages/Auth/Login';
-
-
-// import UserLayout from './Pages/layout/userLayout';
-// import AdminLayout from './Pages/layout/adminLayout';
-// import CategoriesBook from './Pages/Dashboard/categoriesbook';
-
-
-// function App() {
-//   return (
-//     <Router>
-//     <Routes>
-//       {/* User routes */}
-//       <Route path="/" element={<UserLayout><Allbooks /></UserLayout>} />
-//       <Route path="/signup" element={<UserLayout><SignupUser /></UserLayout>} />
-//       <Route path="/signin" element={<UserLayout><Login /></UserLayout>} />
-
-//       {/* Admin routes */}
-//       <Route path="/dashboard" element={<AdminLayout><CategoriesBook /></AdminLayout>} />
-//     </Routes>
-//   </Router>
-//   //   <Router>
-//   //     {/* 3ashan yiji l header bi kl lsaf7at  */}
-//   //   <Header /> 
-//   //   <div className="App">
-//   //     <Routes>
-//   //       <Route path="/" element={<Allbooks />} />
-//   //       <Route path="/signup" element={<SignupUser />} />
-//   //       <Route path="/signin" element={<Login />} />
-//   //       <Route path="/dashboard" element={<Sidebar />} />
-//   //     </Routes>
-//   //   </div>
-//   // </Router>
-
-
-// //old1
-//   //  <Router>
-//   //  {/* <Header/> */}
-//   //  {/* <Allbooks /> */}
-
-//   //  <div className="App">
-//   //       <Routes>
-//   //           <Route path="/" element={<Header />} > 
-//   //             <Route path='/signup' element={<SignupUser />} />
-    
-//   //         </Route>
-//   //         {/* <Route exact path='/'>
-//   //           <Home />
-//   //         </Route>
-//   //         <Route exact path='/signin'>
-//   //           {user ? (user.isAdmin ? <Redirect to='/dashboard@admin' />:<Redirect to='/dashboard@member' />) : <Signin />}
-//   //         </Route>
-//   //         <Route exact path='/dashboard@member'>
-//   //           {user ? (user.isAdmin === false ? <MemberDashboard /> : <Redirect to='/' />) : <Redirect to='/' />}
-//   //         </Route>
-//   //         <Route exact path='/dashboard@admin'>
-//   //           {user ? (user.isAdmin === true ? <AdminDashboard /> : <Redirect to='/' />) : <Redirect to='/' />}
-//   //         </Route> */}
-//   //        {/* <Route path='/books' element={<Allbooks />} /> */}
-        
-//   //       </Routes>
-//   //     </div>
-//   //  </Router>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Pages/comp/Header3.js';
@@ -93,7 +15,7 @@ import BookList from './Pages/Dashboard/booksdashboard/book/booklist.jsx';
 import UpdateBook from './Pages/Dashboard/booksdashboard/book/updatebook.jsx';
 import BookDetails from './Pages/comp/bookDetails.js';
 import Cart from './Pages/comp/cart.jsx';
-import CartNew from './Pages/comp/cartnew.jsx';
+
 import SuccessPage from "./Pages/comp/SuccessPage.js";
 import Verify from './Pages/comp/verify.js';
 
